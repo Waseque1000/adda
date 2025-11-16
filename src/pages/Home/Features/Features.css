@@ -1,0 +1,18 @@
+/* Hide scrollbar for the Features section */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* WebKit browsers */
+}
+
+section {
+  scroll-behavior: auto; /* Remove smooth scrolling */
+  padding-bottom: 0; /* Remove extra padding */
+}
+
+.grid {
+  gap: 1.5rem; /* Add spacing between grid items */
+}
